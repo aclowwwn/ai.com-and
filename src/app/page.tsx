@@ -4,6 +4,7 @@ import {
   CalendarClock, MessageSquare, ClipboardList,
   Calculator, Zap, Check, ChevronRight
 } from 'lucide-react';
+import { Hero } from '@/components/hero';
 
 export const Navbar = () => (
   <nav className="fixed w-full z-50 top-0 bg-white/90 backdrop-blur-md border-b border-slate-100 h-20 flex items-center">
@@ -18,7 +19,7 @@ export const Navbar = () => (
         <a href="#expertise" className="hover:text-brand-blue transition">Expertise</a>
         <a href="#solutions" className="hover:text-brand-blue transition">Solutions</a>
         <a href="#packages" className="hover:text-brand-blue transition">Engagement Models</a>
-        <a href="/roadmap" className="hover:text-brand-blue transition">Roadmap</a>
+        {/* <a href="/roadmap" className="hover:text-brand-blue transition">Roadmap</a> */}
       </div>
       <a href="/contact" className="bg-brand-heading text-white px-6 py-2.5 rounded-full font-medium text-sm hover:bg-brand-blue transition shadow-lg">
         Schedule Consultation
@@ -45,7 +46,7 @@ export const SimpleNavbar = () => (
 );
 
 
-const Hero = () => (
+const OldHero = () => (
   <header className="pt-32 pb-20 px-6 relative overflow-hidden">
     {/* Abstract Background Blob */}
     <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-blue-100/50 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/2 pointer-events-none"></div>
@@ -281,7 +282,7 @@ export const Footer = () => (
           </a>
         </div>
         <p className="text-slate-400 text-sm max-w-sm mb-6">
-          Empowering Omani enterprises with intelligence. We build the systems that build the future.
+          Empowering enterprises with intelligence. We build the systems that build the future.
         </p>
       </div>
       <div>
