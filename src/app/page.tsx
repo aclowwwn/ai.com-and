@@ -244,7 +244,7 @@ const Packages = () => (
               </li>
             ))}
           </ul>
-          <a href="/contact" className="w-full block text-center py-3 bg-brand-blue text-white rounded-lg font-semibold hover:bg-blue-700 transition shadow-lg shadow-blue-200">Start Pilot</a>
+          <a href="/contact" className="w-full block text-center py-3 bg-brand-blue text-white rounded-lg font-semibold hover:bg-brand-blue/80 transition shadow-lg shadow-blue-200">Start Pilot</a>
         </div>
 
         {/* Scale */}
